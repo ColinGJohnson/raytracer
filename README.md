@@ -2,7 +2,7 @@
 # raytracer
 
 
-A simple raytracer written in C++.
+A simple raytracer written in C++ for "CSC 305: Introduction to Computer Graphics" at UVic.
 
 <p align="center">
   <img width="300" height="200" src="./example.png" alt="Example raytracer output">
