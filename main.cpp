@@ -472,8 +472,8 @@ vec3 rayTrace(Ray ray, Scene scene, int depth=0, int sphereID=-1) {
 }
 
 Ray rayThroughPixel(const Scene& scene, int column, int row, bool pixelCenter=false) {
-    float c = pixelCenter ? column + 1.5 : column;
-    float r = pixelCenter ? row + 1.5f : row;
+    float c = pixelCenter ? (float) column + 1.5f : (float) column;
+    float r = pixelCenter ? (float) row + 1.5f : (float) row;
 
     // Adjustment to exactly match test cases
     r += 1.0;
